@@ -1,0 +1,32 @@
+{
+  "name": "weather-bot",
+  "version": "1.0.0",
+  "description": "WeatherBot gets you weather forecast for the city you like",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WizyRoom/Weather-bot.git"
+  },
+  "keywords": [
+    "weather",
+    "bot"
+  ],
+  "author": "wizy.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WizyRoom/Weather-bot/issues"
+  },
+  "homepage": "https://github.com/WizyRoom/Weather-bot#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "@google-cloud/datastore": "^0.1.1",
+    "body-parser": "^1.15.2",
+    "nconf": "^0.8.4",
+    "nodemailer": "^2.6.4",
+    "request": "^2.75.0"
+  }
+}
