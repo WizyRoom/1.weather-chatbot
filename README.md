@@ -7,11 +7,11 @@ In this example we propose to use [Ngrok](https://ngrok.com/download): a secure 
 
 ## Requirement
 
-* APIXU
-* Wizyroom account
-* Weather-Chatbot
-* Ngrok
-* Heroku
+* [APIXU](https://www.apixu.com/)
+* [Wizyroom account](https://app.wizyroom.io/admin/integrations/chatbots)
+* [Weather-Chatbot](https://github.com/WizyRoom/1.weather-chatbot)
+* [Ngrok](https://ngrok.com/download)
+* [Heroku](https://www.heroku.com)
 
 ## Installation
 
@@ -113,14 +113,14 @@ In order to be able to deploy your bot we propose to use **Heroku.com**.
 
 Time to use your bot in Wizyroom and test it.
 
-1. Go to your Wizyroom account admin panel https://app.wizyroom.io/admin/integrations/chatbots
+1. Go to your Wizyroom account [admin panel](https://app.wizyroom.io/admin/integrations/chatbots)
 2. Add chatbot
 3. Specify all required fields (Server URL is the url of the deployed application on Heroku with **/chatbot** at the end of URLs) example : https://hello-world-chatbot.herokuapp.com/chatbot
-![Wizyroom](https://sites.google.com/a/wizy.io/sand/sandbox/bot_creation.PNG)
+![Wizyroom](https://sites.google.com/a/wizy.io/sand/sandbox/bot_creation_weather.PNG)
 4. Go to a room and invite your bot
-![inviteBot](https://sites.google.com/a/wizy.io/sand/sandbox/add-bot.PNG)
+![inviteBot](https://sites.google.com/a/wizy.io/sand/sandbox/add-bot_weather.PNG)
 5. Mention your created bot and start a conversation
-![inviteBot](https://sites.google.com/a/wizy.io/sand/sandbox/mention.PNG)
+![inviteBot](https://sites.google.com/a/wizy.io/sand/sandbox/mention_weather.PNG)
 
 ## License
 
