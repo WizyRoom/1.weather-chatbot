@@ -106,7 +106,7 @@ In order to be able to deploy your bot we propose to use **Heroku.com**.
 7. Connect **GitHub** to **Heroku** and authorize application.
 8. Now search for our project **WizyRoom-Sample-Bot** and connect it.
 9. Click on **Deploy Branch** Master.
-10. Once deployment done you can view your app by clicking on Open app [example](https://hello-world-chatbot.herokuapp.com/)
+10. Once deployment done you can view your app by clicking on Open app [example](https://wizyroom-weather-bot.herokuapp.com/)
 
 
 ## WizyRoom integration
@@ -115,7 +115,7 @@ Time to use your bot in Wizyroom and test it.
 
 1. Go to your Wizyroom account [admin panel](https://app.wizyroom.io/admin/integrations/chatbots)
 2. Add chatbot
-3. Specify all required fields (Server URL is the url of the deployed application on Heroku with **/chatbot** at the end of URLs) example : https://hello-world-chatbot.herokuapp.com/chatbot
+3. Specify all required fields (Server URL is the url of the deployed application on Heroku with **/weather** at the end of URLs) example : https://wizyroom-weather-bot.herokuapp.com/weather
 ![Wizyroom](https://sites.google.com/a/wizy.io/sand/sandbox/bot_creation_weather.PNG)
 4. Go to a room and invite your bot
 ![inviteBot](https://sites.google.com/a/wizy.io/sand/sandbox/add-bot_weather.PNG)
