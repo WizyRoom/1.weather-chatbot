@@ -3,7 +3,7 @@
 Weather-Chatbot is a Node.js chatbot for [Wizyroom](https://app.wizyroom.io/secured/login?next_uri=Lw%3D%3D). 
 In this example we propose to use [Ngrok](https://ngrok.com/download): a secure introspectable tunnels to your localhost, to test your chatbot locally without deploying it.
 
-![chatbot](https://sites.google.com/a/wizy.io/sand/sandbox/chatbot.gif)
+![chatbot](https://sites.google.com/a/wizy.io/sand/sandbox/wather.gif)
 
 ## Requirement
 
