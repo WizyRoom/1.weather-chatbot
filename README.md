@@ -51,7 +51,7 @@ app.post('/weather', function(req, res){
 })
 ```
 
-* Get you own [APIXU](https://www.apixu.com/) **API key** from [here](https://www.apixu.com/my) and replace it in the code above in `var apiKey`.
+* Get your own [APIXU](https://www.apixu.com/) **API key** from [here](https://www.apixu.com/my) and replace it in the code above in `var apiKey`.
 
 * This simple application will return weather for country specified by the user everytime the chatbot is triggered in **Wizyroom**
 
