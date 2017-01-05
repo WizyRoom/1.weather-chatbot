@@ -28,7 +28,6 @@ app.get('/', function (req, res) {
 
 //WIZYROOM CHATBOT URL : Data will be posted to this url from Wizyroom (your server url will look like : www.example.com/weather)
 app.post('/weather', function(req, res){
-	 console.log("weather");
 	operation.getWeather(req, res)
 })
 

@@ -46,9 +46,9 @@ app.get('/', function(req, res, next) {
 `req.body` contain the posted data.
 
 ```javascript
-app.post('/chatbot', function(req, res, next) {
-	operations.botOperation(req, res)
-});
+app.post('/weather', function(req, res){
+	operation.getWeather(req, res)
+})
 ```
 
 * Get you own [APIXU](https://www.apixu.com/) **API key** from [here](https://www.apixu.com/my) and replace it in the code above in `var apiKey`.
