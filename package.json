@@ -1,32 +1,34 @@
 {
   "name": "weather-bot",
   "version": "1.0.0",
-  "description": "WeatherBot gets you weather forecast for the city you like",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+  "description": "Weather Bot gets you weather forecast for the city you like",
+  "author": "Wizy.io",
+  "contributors": [
+    {
+      "name": "Maher",
+      "email": "maher@wizy.io"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/WizyRoom/Hello-world-chatbot/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WizyRoom/Weather-bot.git"
+    "url": "https://github.com/WizyRoom/1.weather-chatbot"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "monitor": "nodemon app.js"
   },
   "keywords": [
     "weather",
     "bot"
   ],
-  "author": "wizy.io",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WizyRoom/Weather-bot/issues"
-  },
-  "homepage": "https://github.com/WizyRoom/Weather-bot#readme",
+  "homepage": "https://github.com/WizyRoom/1.weather-chatbot#readme",
   "dependencies": {
-    "express": "^4.14.0",
-    "@google-cloud/datastore": "^0.1.1",
-    "body-parser": "^1.15.2",
-    "nconf": "^0.8.4",
-    "nodemailer": "^2.6.4",
+    "ejs": "~0.8.5",
+    "express": "~3.4.4",
     "request": "^2.75.0"
   }
 }
